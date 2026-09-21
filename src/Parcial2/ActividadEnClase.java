@@ -35,5 +35,6 @@ public class ActividadEnClase {
         for(int k=0; k<arregloTamano; k++){
             int[] arreglo = {tecl.nextInt()};
         }
+        //hola jeje (ejercicio del 21 / 09 / 2026
     }
 }
