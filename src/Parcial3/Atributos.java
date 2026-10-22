@@ -2,7 +2,8 @@ package Parcial3;
 
 public class Atributos {
     static void main() {
-
+        Coche carro = new Coche("Toyota", 2011, "Camry");
+        carro.mostrarInformacion();
     }
 }
 
@@ -18,5 +19,19 @@ class Coche{
     boolean puertaDepositoCombustible, taponDepositoCombustible, cinturonesPuestos;
     double cargaPeso, presionLlantas;
     boolean limpiaparabrisasEncendido;
+
+    Coche(String marca, int modeloAnio, String modelo){
+        this.marca = marca;
+        this.modeloAnio = modeloAnio;
+        this.modelo = modelo;
+    }
+    void mostrarInformacion(){
+        System.out.println(marca);
+        System.out.println(modelo);
+        System.out.println(modeloAnio);
+    }
+    void mostrarInformacion(int velocidadMaxima){
+
+    }
 }
 
